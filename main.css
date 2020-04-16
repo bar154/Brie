@@ -1,0 +1,188 @@
+body {
+    background-color: deepskyblue;
+    background-image:
+}
+
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+
+#lineOne {
+    color: purple;
+
+}
+
+#lineTwo {
+    font-size: 40px;
+}
+
+#lineThree {
+    /*    font-family: 'Gelasio', serif;*/
+    font-size: 30px;
+    background-color: aqua;
+}
+
+#lineFour {
+    letter-spacing: 20px;
+}
+
+#lineFive {
+    font-family: fantasy;
+    font-size: 30px;
+    color: #ffff;
+
+
+}
+
+#lineSix {
+    border-style: groove;
+    border-color: chartreuse;
+    color: chartreuse;
+    background-color: forestgreen;
+    font-size: 40px;
+    font-family: 'Luckiest Guy', cursive;
+
+
+
+}
+
+#lineSeven {
+    background-color: blueviolet;
+    color: azure;
+    font-family: 'Mansalva', cursive;
+    font-size: 50px;
+    color: fuchsia;
+}
+
+#lineEight {
+    border-style: dotted;
+    color: firebrick;
+    font-size: 30px;
+
+}
+
+#lineNine {
+    border-color: aqua;
+    background-color: deeppink;
+    color: deepskyblue;
+    font-size: 30px;
+}
+
+#lineTen {
+    border: 10px solid red;
+    padding: 0em 1em;
+    border-radius: 40px;
+    font-size: 24px;
+    line-height: 55px;
+    font-size: 35px;
+    color: red;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+#lineEleven {
+    box-sizing: content-box;
+    width: 300px;
+    height: 175px;
+    padding: 30px;
+    border: 10px solid blue;
+    background-color: cornflowerblue;
+    font-family: monospace;
+    font-size: 30px;
+
+}
+
+
+#lineTwelve {
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-style: oblique;
+    border: 20px dotted azure;
+    color: aqua;
+    left: 100px;
+    right: 10px;
+    font-size: 40px;
+
+
+
+}
+
+#lineThirteen {
+    text-shadow: 2px 2px #FF0000;
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+#lineFourteen {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 40px;
+    color: antiquewhite;
+    background-color: burlywood;
+}
+
+
+#lineFifteen {
+    border-bottom-style: double;
+    border-top-style: double;
+    color: fuchsia;
+    font-family: 'Zhi Mang Xing', cursive;
+    border-width: thick;
+    font-size: 25px;
+
+
+}
+
+#lineSixteen {
+    background-color: darkred;
+    color: fuchsia;
+    font-size: 30px;
+}
+
+
+#lineSeventeen {
+    font-family: monospace;
+    font-size: 30px;
+}
+
+
+#lineEighteen {
+    border: 10px dotted blue;
+    font-size: 25px;
+    color: aqua
+}
+
+#lineNineteen {
+    border-bottom-style: solid;
+    border-bottom-color: lightcoral;
+    color: aquamarine;
+    font-size: 30px;
+    color: coral;
+    text-align: center;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+#lineTwentey {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px red;
+    font-family: sans-serif
+}
